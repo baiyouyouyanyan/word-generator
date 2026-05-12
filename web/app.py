@@ -68,7 +68,7 @@ def step1_replace_and_highlight(
 
 @app.get("/")
 async def root():
-    return FileResponse("index.html")
+    return FileResponse("web/index.html")
 
 @app.post("/api/generate")
 async def generate_report(
